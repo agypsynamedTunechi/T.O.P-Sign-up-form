@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ @font-face{
+        font-family: "Action man Bold";
+        src: url(font/ActionMan-Bold.woff2) format("woff2"); 
+    }
+
+@font-face {
+    font-family: 'Action Man';
+    src: url('font/ActionMan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-family: "Action man Bold", sans-serif;
+
+
+    display: flex;
+    background-color: beige;
+
+}
+
+span{
+    display: block;
+    margin-top: 30px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.img-container{
+    flex: 1;
+    background-image: url(yunus-tug-KxcPJYypt8g-unsplash.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.text-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+   
+    
+}
+
+.header-text p:last-child{
+    margin: 40px 0;
+}
+
+.form-section{
+    background-color: aquamarine;
+    height: auto;
+    padding: 1rem;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+
+.coln{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.coln div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+label{
+    font-family: "Action Man", sans-serif;
+    font-size: 1rem;
+    margin-right: 10px;
+    text-align: right;
+    
+}
+
+input{
+    max-width: 300px;
+    max-height: 40px;
+    padding: 5px;
+    font-family: "Action Man", sans-serif;
+    font-size: 1.2rem;
+}
+
+input[type = "password"]:invalid{
+    outline-color: red;
+}
+
+input:focus{
+    outline-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.submit-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.submit-container p{
+    font-family: "Action Man", sans-serif;
+    font-size: 1rem;
+    
+}
+
+button{
+    padding: 10px 30px;
+    font-family: "Action Man", sans-serif;
+    background-color: #596D48;
+    color: white;
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+}
+
+
+
+
+
