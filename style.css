@@ -1,12 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
- @font-face{
+@font-face{
         font-family: "Action man Bold";
-        src: url(font/ActionMan-Bold.woff2) format("woff2"); 
+        src: url('font/ActionMan-Bold.woff2') format('woff2');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
     }
 
 @font-face {
@@ -15,6 +12,13 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
